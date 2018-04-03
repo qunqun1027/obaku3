@@ -1,0 +1,391 @@
+@charset utf-8;
+/********공통스타일*****************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    /*    display: block;*/
+    text-decoration: none;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+a:hover {
+    color: #ECEFF1;
+    text-decoration: none;
+}
+
+/***********header********************/
+
+/***************main************************/
+
+.main {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/***************main_slider************************/
+
+.main_logo {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.main_logo img {
+    padding: 10%;
+    width: 70%;
+    height: auto;
+}
+
+.carousel-inner {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    line-height: 1;
+}
+
+.item {
+    position: absolute;
+}
+
+.carousel-caption {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-indicators li {
+    border: 1px solid #000;
+    background-color: #37474F;
+    transition: 0.1s;
+}
+
+/************wrapper bgded******************/
+
+.hoc split clear {
+    background-image: url(../images/women_01.png);
+    background-repeat: no-repeat;
+
+}
+
+.watchs,
+.watchs_02 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.watchs h3,
+.watchs_02 h3 {
+    margin-left: 15%;
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.section {
+    overflow: hidden;
+    float: left;
+}
+
+/**************life_section**************************/
+
+.life_Section {
+
+    max-width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.life_Section >h1 {
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.life_Section > h3 {
+    width: 100%;
+    font-size: 16px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #999;
+    font-family: 'Nanum Brush Script', cursive;
+}
+.slides h1{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 3em;
+}
+.slides .heading{
+    font-family: 'Nanum Brush Script', cursive;
+  
+ 
+   
+}
+
+
+/*********content_01************/
+
+.content_01 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 30%;
+
+}
+
+.title > h1 {
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.title > h3 {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#containerbox {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+/**************bxslider_img box**********************/
+
+.prodoct_slider {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*    border: 1px solid red;*/
+    z-index: 999;
+}
+
+.bxslider li img {
+    width: 100%;
+    height: auto;
+}
+
+.bx-wrapper {
+    -webkit-box-shadow: none;
+}
+
+.bx-wrapper .bx-pager {
+    display: none;
+}
+
+/****life imgs****/
+
+#inlife {
+    position: relative;
+    width: 978px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+
+}
+
+#inlife img {
+    width: 100%;
+}
+
+.container_life_images {
+    position: relative;
+    width: 25%;
+    float: left;
+
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay_three {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #141F35;
+}
+
+.container_life_images:hover .overlay_three {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/******title**********/
+
+.content_1,
+.content_2,
+.content_3 {
+    width: 33%;
+    float: left;
+    margin-left: 3px;
+}
+
+.content_1 a > img,
+.content_2 a > img,
+.content_3 a > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    display: block;
+
+
+}
+
+/***************card*******************/
+.top_card{
+/*    border: 1px solid red;*/
+    overflow: hidden;
+    height: 100%;
+    
+}
+.top_card >.cards {
+    max-width: 1000px;
+/*    border: 1px solid blue;*/
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+    
+}
+.card:nth-child(2){
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card:nth-child(5){
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.card {
+    width: 30%;
+    float: left;
+/*    margin: 10px;*/
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.card >a{
+    display: block;
+}
+.card >a:hover{
+    border: 5px solid orange;
+    box-sizing: border-box;
+}
+.card > img {
+    width: 100%;
+    display: block
+}
+
+.card > .icons {}
+
+.icons {
+    background: rgba(0,0,0,0.2);
+}
+.icons:hover{
+    background: orange;
+    
+    
+}
+.icons > h1 {
+    text-align: center;
+    
+}
+
+.icons > a {
+    color: red;
+
+    display: contents;
+}
+
+.icons > a > h1 {
+    color: #666;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.icons > a > i {
+
+    font-size: 2em;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: #E57373;
+}
+.icons > a > i:hover{
+    color: white;
+}
+/**********flex active-slide**********************/
+#copyright >.hoc clear >p{
+    border: 1px solid red;
+}
+
+
